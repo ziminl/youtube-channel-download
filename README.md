@@ -13,3 +13,6 @@ With input link, download all video, shorts, playlist in each folder.
 # todo
 
 download new video uploaded
+
+# trouble shooting
+https://stackoverflow.com/questions/50909361/python-hangs-after-some-time-continues-when-pressed-enter
