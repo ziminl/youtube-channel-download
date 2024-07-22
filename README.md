@@ -16,7 +16,10 @@ shorts resolution will be 1080x1920
 
 download new video uploaded
 
-playlist name 2 dir name
+format docs 
+
+https://github.com/ytdl-org/youtube-dl?tab=readme-ov-file#format-selection
+
 
 # trouble shooting
 https://stackoverflow.com/questions/50909361/python-hangs-after-some-time-continues-when-pressed-enter
