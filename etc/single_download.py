@@ -1,13 +1,10 @@
-
-##pip install yt-dlp
-
-
 import yt_dlp
 
-def download_best_resolution(url, output_path='.'):
+def download_1080p_mp4(url, output_path='.'):
     ydl_opts = {
-        'format': 'best',
+        'format': 'bestvideo[height<=1080]+bestaudio/best[height<=1080]',
         'outtmpl': f'{output_path}/%(title)s.%(ext)s',
+        'merge_output_format': 'mp4',   #MP4 see docs for more
     }
     
     try:
@@ -21,7 +18,5 @@ def download_best_resolution(url, output_path='.'):
 
 # Example usage
 if __name__ == "__main__":
-    video_url = 'https://youtu.be/WaZHX6RhGLs?si=fdPAT9UoT5PjwVv1'
-    download_best_resolution(video_url)
-
-
+    video_url = '<yt link>' ##https://youtu.be/WaZHX6RhGLs?si=fdPAT9UoT5PjwVv1
+    download_1080p_mp4(video_url)
