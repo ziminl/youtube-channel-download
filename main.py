@@ -3,7 +3,8 @@ import yt_dlp ##https://pypi.org/project/yt-dlp/
 
 def download_channel_videos(channel_url, output_path, max_duration=None):
     ydl_opts = {
-        'format': 'best', ##idk
+        #'format': 'best', ##idk
+        'format': 'bestvideo[height<=1080]+bestaudio/best[height<=1080]',
         'outtmpl': os.path.join(output_path, '%(upload_date)s_%(title)s.%(ext)s'),
         'ignoreerrors': True,
         'nocheckcertificate': True,
