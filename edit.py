@@ -10,3 +10,9 @@
 
 # if there isnt json just passby.
 
+## or just run that original script. it passes downloaded ones.
+# debuglog
+#[download] C:\dir Created videoname.mp4 has already been downloaded
+
+
+
