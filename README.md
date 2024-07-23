@@ -16,9 +16,13 @@ shorts resolution will be 1080x1920
 
 download new video uploaded
 
+try best resolution. as 1080p -> 720p -> 480p -> 360p
+
 format docs 
 
 https://github.com/ytdl-org/youtube-dl?tab=readme-ov-file#format-selection
+
+
 
 
 # trouble shooting
